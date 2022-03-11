@@ -15,5 +15,9 @@
     "esp_wifi.h": "c",
     "timer.h": "c"
   },
-  "idf.adapterTargetName": "esp32c3"
+  "idf.adapterTargetName": "esp32c3",
+  "idf.portWin": "COM10",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-builtin.cfg"
+  ]
 }
